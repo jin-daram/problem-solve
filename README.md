@@ -8,4 +8,5 @@
 - [프로그래머스 - [Lv.3] 경주로 건설](https://school.programmers.co.kr/learn/courses/30/lessons/67259)
 - [프로그래머스 - [Lv.3] 퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021)
 - [프로그래머스 - [Lv.3] 아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)
-- [프로그래머스 - [Lv.3 불량 사용자]](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
+- [프로그래머스 - [Lv.3] 불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
+- [프로그래머스 - [Lv.2] 비밀 코드 해독](https://school.programmers.co.kr/learn/courses/30/lessons/388352)
