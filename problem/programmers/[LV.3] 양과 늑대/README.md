@@ -39,9 +39,8 @@ for (int k=0; k<tree.length; k++) {
         newVisitableNodes.add(k);
     }
 }
-if (I[nextNode] == 0) { // 양이 늘어나는 경우
-    dfs(nextNode, newVisitableNodes, sheep+1, wolf, depth + 1);
-} else { // 늑대
-    dfs(nextNode, newVisitableNodes, sheep, wolf+1, depth + 1);
-}
+
+if (I[nextNode] == 0) dfs(nextNode, newVisitableNodes, sheep+1, wolf, depth + 1);
+else dfs(nextNode, newVisitableNodes, sheep, wolf+1, depth + 1);
+
 ```
