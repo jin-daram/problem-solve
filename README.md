@@ -11,3 +11,5 @@
 - [프로그래머스 - [Lv.3] 불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
 - [프로그래머스 - [Lv.2] 비밀 코드 해독](https://school.programmers.co.kr/learn/courses/30/lessons/388352)
 - [프로그래머스 - [Lv.3] 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)
+- [백준 - [골드3] ACM Crfat (1005)](https://www.acmicpc.net/problem/1005)
+- [백준 - [골드4] 작업 (2056) ](https://www.acmicpc.net/problem/2056)
