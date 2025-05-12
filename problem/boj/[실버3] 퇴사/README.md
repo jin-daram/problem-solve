@@ -103,5 +103,49 @@ for (int i=1; i<=N; i++) {
 }
 ```
 
+---
+### 피드백 및 다른 답안
+내가 복잡하게 풀게 된 문제는 상담 수익을 당일에 바로 얻는다고 가정해서 그렇다. 너무 많은 고민을 하다가 생각이 복잡해지니 조금 어렵게 코드를 짜게 된 것 같다. 다른 답안을 보면 굉장히 간단하게 문제를 풀 수 있는 것을 확인할 수 있었다.
 
+[hunmin8788님의 풀이](https://solved.ac/profile/hunmin8788)
+```java
+public class Main {
 
+    static int[] t, p;
+    static int N;
+    static int[] dp;
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        N = Integer.parseInt(st.nextToken());
+
+        t = new int[N];
+        p = new int[N];
+        dp = new int[N + 1];
+
+        Arrays.fill(dp, 0);
+
+        for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
+            t[i] = Integer.parseInt(st.nextToken());
+            p[i] = Integer.parseInt(st.nextToken());
+        }
+
+        // index 0부터 시작, next는 상담이 끝나는 날
+        for (int i = 0; i < N; i++) {
+            int next = i + t[i];
+
+            if (next <= N) {
+                dp[next] = Math.max(dp[next], dp[i] + p[i]);
+            }
+
+            // N+1 이 퇴사날이므로, next == N 인 경우, 수입은 N+1에 들어오므로 dp[N + 1] 까지 계산을 해야한다.
+            dp[i + 1] = Math.max(dp[i + 1], dp[i]);
+        }
+
+        System.out.println(dp[N]);
+    }
+}
+```
