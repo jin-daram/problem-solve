@@ -1,6 +1,8 @@
 # 코딩 테스트 문제 풀이
 `Programmers`, `BOJ` 등에서 문제 풀이한 것을 정리하는 저장소
 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=jindaram)](https://solved.ac/jindaram/)
+
 ### References
 - [코딩 테스트 및 알고리즘 문제해결 공부 방법 (고려대학교 KUCC, 2022년 4월)](https://www.slideshare.net/slideshow/kucc-2022-4/251739276)
 
