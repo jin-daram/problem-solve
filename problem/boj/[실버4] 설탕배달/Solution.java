@@ -1,5 +1,3 @@
-package org.example;
-
 import java.io.*;
 import java.util.*;
 
@@ -16,7 +14,7 @@ public class BOJ_2839 {
         for (int i=0; i<2; i++) {
             int number = numbers[i];
             for (int k=number; k<=N; k++) {
-                if (dp[k-number] != Integer.MAX_VALUE) dp[k] = dp[k-number] + 1;
+                if (dp[k-number] != Integer.MAX_VALUE) dp[k] = Math.min(dp[k], dp[k-number] + 1);
             }
         }
 
