@@ -4,6 +4,7 @@
 |:-:|:-:|:-:|:-:|
 |11052|실버1|카드 구매하기|[풀러가기](https://www.acmicpc.net/problem/11052)|
 |12865|골드5|평범한 배낭|[풀러가기](https://www.acmicpc.net/problem/12865)|
+|5557|골드5|1학년|[풀러가기](https://www.acmicpc.net/problem/5557)|
 
 **경우가 여러가지 되는 DP 문제**
 - [RGB 거리](https://www.acmicpc.net/problem/1149)
