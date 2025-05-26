@@ -10,6 +10,7 @@
 |2133|골드4|타일 채우기|[풀러가기](https://www.acmicpc.net/problem/2133)|
 |9251|골드5|LCS|[풀러가기](https://www.acmicpc.net/problem/9251)|
 |1256|골드2|사전|[풀러가기](https://www.acmicpc.net/problem/1256)|
+|1806|골드4|부분합|[풀러가기](https://www.acmicpc.net/problem/1806)|
 
 ### **점화식 세우는 게 어려웠던 문제**
 |문제 이름|풀러가기|
