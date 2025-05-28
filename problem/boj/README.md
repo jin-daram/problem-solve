@@ -12,6 +12,8 @@
 |1256|골드2|사전|[풀러가기](https://www.acmicpc.net/problem/1256)|
 |1806|골드4|부분합|[풀러가기](https://www.acmicpc.net/problem/1806)|
 |1915|골드4|가장 큰 정사각형|[풀러가기](https://www.acmicpc.net/problem/1915)|
+|12348|실버1|분해합2|[풀러가기](https://www.acmicpc.net/problem/12348)|
+|12869|골드4|뮤탈리스크|[풀러가기](https://www.acmicpc.next/problem/12869)|
 
 ### **점화식 세우는 게 어려웠던 문제**
 |문제 이름|풀러가기|
