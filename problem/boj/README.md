@@ -14,6 +14,7 @@
 |1915|골드4|가장 큰 정사각형|[풀러가기](https://www.acmicpc.net/problem/1915)|
 |12348|실버1|분해합2|[풀러가기](https://www.acmicpc.net/problem/12348)|
 |12869|골드4|뮤탈리스크|[풀러가기](https://www.acmicpc.next/problem/12869)|
+|2240|골드4|자두나무|[풀러가기](https://www.acmicpc.net/problem/2240)|
 
 ### **점화식 세우는 게 어려웠던 문제**
 |문제 이름|풀러가기|
